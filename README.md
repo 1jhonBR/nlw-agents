@@ -64,3 +64,33 @@
   - Declaração
   - Seletor
   - Propriedade e valor
+
+  # JS
+  - Linguagem de programação
+  - Browsers
+  - Input -> Process -> Output
+  - Variáveis
+  - Functions
+    - Agrupamento e reuso de código
+    - Sequência lógica
+    - Saída
+  - Gemini (ia): esperar uma resposta
+  - Mexer no meu navegador
+  - Estrutura de dados
+  - Estrutura de decisão
+  - Algoritmo: Sequência de passos lógica, de maneira ordenada, a fim de chegar a alguma conclusão (limitada)
+  - Lógica (Pensamento Computacional)
+    - Abstração
+    - Decomposição
+    - Algoritmo
+    - Reconhecimento de padrão
+  - Tipos de dados
+    - Number
+    - String ("", '', ``)
+    - Boolean: true | false
+
+  # DOM
+  - Document
+  - Object
+  - Model
+  - Objects
