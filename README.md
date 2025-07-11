@@ -19,6 +19,9 @@
   - Protocol
     - Protocolo
     - Conjunto de regras
+  - Methods HTTP (verbos): Get, Post, Patch/Put, Delete
+  - Headers (cabeçalhos): Instruções/Informações extras para cada chamada
+
 
   # URL
   - Uniform
@@ -94,3 +97,29 @@
   - Object
   - Model
   - Objects
+
+  # API
+  - Application
+  - Programming
+  - Interface
+  - JSON: JavaScript Object Notation
+
+  # CDN
+  - Content
+  - Delivery
+  - Network
+
+  # LLM
+  - Large
+  - Language
+  - Model
+  - Gemini, OpenAI, Anthropic...
+
+  # Agentes AI
+  - Tools: Permitem uso de código, ou apps, ou qualquer informação extra.
+  - Melhor contexto
+
+  # Engenharia de Prompt
+  - One Shot: Uma única pergunta sem muito contexto
+  - Few Shot: São apresentados exemplos do que se espera
+  - Chain of Thought: Cadeia de pensamento para a IA responder gradativamente conforme a instrução.

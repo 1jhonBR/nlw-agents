@@ -96,6 +96,7 @@ button {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.12px;
+  margin-bottom: 1.275rem;
 
   transition: all 0.3s;
 }
@@ -104,6 +105,38 @@ button:hover {
   cursor: pointer;
   transform: translateY(-2px);
   box-shadow: 0 5px 1rem rgba(255, 248, 107, 0.2);
+}
+
+button:disabled {
+  transition: initial;
+  transform: initial;
+  box-shadow: initial;
+  cursor: not-allowed;
+  color: black;
+}
+
+.loading {
+  animation: pulse 1s infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+#aiResponse {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  border-left: 4px solid #43e7ad;
+}
+
+#aiResponse p {
+  color: white;
+}
+
+#aiResponse ul {
+  padding-left: 1.5rem;
+  opacity: 0.8;
 }
 
 /* Animações */
@@ -121,5 +154,11 @@ main section {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;;
   }
 }
